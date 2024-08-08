@@ -1,0 +1,47 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    line-height: 1.5;
+    color: #650300;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    font-size: 64px;
+    padding-bottom: 4px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}

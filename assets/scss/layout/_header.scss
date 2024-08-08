@@ -1,4 +1,71 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.header {
+  background: #AA0601;
+
+  a {
+    color: white;
+    font-size: 20px;
+  }
+
+  .logo {
+    img {
+      width: 80px;
+    }
+
+    @include mobile {
+      padding: 12px 0;
+      margin-right: auto;
+      margin-left: 15px;
+    }
+
+  }
+
+  .nev {
+    a {
+      padding: 25px 0;
+    }
+
+    @include mobile {
+      width: 100%;
+      ul {
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      li {
+        padding-right: 0px;
+        margin: 0 auto;
+      }
+
+      &-card {
+        width: 50%;
+        border: 1px solid white;
+      }
+
+      a {
+        font-size: 16px;
+        text-align: center;
+        padding: 12px 0;
+      }
+    }
+  }
+
+  .row {
+    @include pad {
+      padding: 0 24px;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 0 0;
+    }
+  }
+
+
+}
+@include mobile{
+  .p-sm-0{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
