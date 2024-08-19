@@ -1,0 +1,35 @@
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+.pr-16 {
+    padding-right: 64px;
+}
+
+.box {
+    margin-right: -12px;
+    margin-left: -12px;
+    padding-top: 24px;
+}
+.p80 {
+    padding: 80px 0;
+}
+.p12 {
+    padding: 0 12px;
+}
