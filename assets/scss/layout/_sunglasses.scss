@@ -1,0 +1,42 @@
+.products{
+    .sunglasses-header-box{
+        height: 296px;
+        @include mobile{
+            height: 136px;
+        }
+    }
+    .sunglasses-header-pic1, .sunglasses-header-pic2{
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/product-header-3.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        @include pad{
+            background-image: url(../images/product-header-sm-3.png);
+        }
+    }
+    .sunglasses-header-pic2{
+        background-image: url(../images/product-header-4.png);
+        @include pad{
+            background-image: url(../images/product-header-sm-4.png);
+        }
+    }
+    &-list{
+        .sunglasses-card{
+            width: 33.333%;
+            padding-right: 12px;
+            padding-left: 12px;
+            padding-bottom: 80px;
+            @include pad{
+                width: 50%;
+                padding-bottom: 40px;
+            }
+            @include mobile{
+                width: 100%;
+            }
+            
+        }
+        
+    }
+}
