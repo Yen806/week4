@@ -3,8 +3,9 @@
     padding: 0 16px;
     @include pad{
         padding: 0 36px;
+        padding-top: 56px;
     }
-    @include mobile{
+    @include mobile-lg{
         padding: 24px 16px;
     }
     color: white;
@@ -34,13 +35,13 @@
     }
     .contact-imformation h3{
         padding-left: 22px;
-        @include mobile{
+        @include mobile-lg{
             padding-left: 10px;
         }
     }
     .email {
     padding-bottom: 32px;
-    @include mobile{
+    @include mobile-lg{
         padding-bottom: 24px;
     }
 }
@@ -52,7 +53,7 @@
         @include pad{
             max-width: 40px;
         }
-        @include mobile{
+        @include mobile-lg{
             max-width: 24px;
         }
     }
@@ -62,27 +63,27 @@
     @include pad{
         padding-left: 16px;
     }
-    @include mobile{
+    @include mobile-lg{
         padding-left: 8px;
     }
 }
 
 .fz-8 {
     font-size: 36px;
-    @include mobile{
+    @include mobile-lg{
         font-size: 18px;
     }
 }
 
 .fz-10 {
     font-size: 40px;
-    @include mobile{
+    @include mobile-lg{
         font-size: 20px;
     }
 }
 .copyright {
     padding: 36px 0;
-    @include mobile{
+    @include mobile-lg{
         padding-top: 16px;
         padding-bottom: 0px;
         }
@@ -92,14 +93,14 @@
     a {
         color: white;
     }
-    @include mobile{
+    @include mobile-lg{
         flex-direction: column;
         }
 }
 .pr48 {
     padding-right: 48px;
 }
-@include mobile{
+@include mobile-lg{
     h3 {
         font-size: 16px;
     }
